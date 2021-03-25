@@ -1,2 +1,0 @@
-(this.webpackJsonpclient=this.webpackJsonpclient||[]).push([[0],{10:function(e,t,n){"use strict";n.r(t);var c=n(1),i=n.n(c),r=n(3),o=n.n(r),s=(n(8),n(0));var d=function(){return Object(s.jsx)("div",{children:Object(s.jsx)("h1",{children:"Have a good day!!!"})})};o.a.render(Object(s.jsx)(i.a.StrictMode,{children:Object(s.jsx)(d,{})}),document.getElementById("root"))},8:function(e,t,n){}},[[10,1,2]]]);
-//# sourceMappingURL=main.d56145c8.chunk.js.map
