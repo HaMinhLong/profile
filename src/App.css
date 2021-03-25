@@ -104,7 +104,7 @@ header.sticky ul li a {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: url("./images/bg.jpg");
+  background: url("https://innovatewebdevelopment.com/wp-content/uploads/2020/07/comingsoon.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -117,8 +117,9 @@ header.sticky ul li a {
   font-size: 90px;
   text-align: center;
 }
+
 .banner h2:nth-child(1) {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   letter-spacing: 5px;
   transition: 0.5s;
 }
@@ -129,8 +130,8 @@ header.sticky ul li a {
   letter-spacing: 10px;
 }
 .banner h2:nth-child(2) {
-  font-weight: 200;
+  font-weight: 300;
 }
 .banner h2:nth-child(2) span {
-  font-weight: 400;
+  font-weight: 500;
 }
