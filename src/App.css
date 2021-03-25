@@ -8,3 +8,129 @@ body {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
+h3 {
+  font-size: 40px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+p {
+  position: relative;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 30px;
+  background: #000;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* NAVBAR */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.7s;
+  z-index: 1000;
+}
+header.sticky {
+  background: #fff;
+  padding: 10px 100px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+header .logo {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+  transition: 0.5s;
+}
+header .logo span {
+  color: #4a76fb;
+  font-size: 50px;
+  margin-right: 10px;
+}
+header .logo:hover {
+  letter-spacing: 5px;
+}
+header ul {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  position: relative;
+  list-style: none;
+  margin-left: 30px;
+}
+header ul li a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.6s;
+}
+header ul li a:hover,
+header.sticky ul li a:hover {
+  text-decoration: none;
+  color: #4a76fb;
+}
+header.sticky .logo:hover {
+  letter-spacing: 5px;
+}
+header.sticky .logo,
+header.sticky ul li a {
+  color: #000;
+}
+
+/* BANNER */
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url("./images/bg.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner h2:nth-child(1),
+.banner h2:nth-child(2) {
+  color: #fff;
+  font-size: 90px;
+  text-align: center;
+}
+.banner h2:nth-child(1) {
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+  transition: 0.5s;
+}
+.banner h2:nth-child(1) span {
+  color: #4a76fb;
+}
+.banner h2:hover:nth-child(1) {
+  letter-spacing: 10px;
+}
+.banner h2:nth-child(2) {
+  font-weight: 200;
+}
+.banner h2:nth-child(2) span {
+  font-weight: 400;
+}

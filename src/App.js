@@ -1,9 +1,16 @@
 import "./App.css";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+import Header from "./components/Layouts/Header";
+import Banner from "./components/Layouts/Banner";
 
 function App() {
   return (
     <div>
-      <h1>Have a good day!!!</h1>
+      <Router>
+        <Route path="/" component={Header} />
+        <Route path="/" exact component={Banner} />
+      </Router>
     </div>
   );
 }
