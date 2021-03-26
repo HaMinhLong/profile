@@ -18,7 +18,7 @@ h3 {
   font-weight: 300;
 }
 h3 span {
-  color: black;
+  color: #1f2738;
   font-size: 60px;
   font-weight: 500;
 }
@@ -33,7 +33,7 @@ p {
   position: relative;
   display: inline-block;
   padding: 10px 30px;
-  background: #000;
+  background: #1f2738;
   text-decoration: none;
   color: #fff;
 }
@@ -54,7 +54,7 @@ header {
 header.sticky {
   background: rgba(255, 255, 255, 1);
   padding: 0px 100px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 header .logo {
@@ -70,8 +70,9 @@ header .logo {
   font-family: "Merienda", cursive;
   animation: animateLogo 0.5s ease-in-out;
 }
+
 header.sticky .logo span {
-  color: #000;
+  color: #1f2738;
 }
 header .logo span {
   transition: 0.5s;
@@ -125,14 +126,14 @@ header ul li a {
 header ul li a:hover,
 header.sticky ul li a:hover {
   text-decoration: none;
-  color: black;
+  color: #1f2738;
 }
 header.sticky .logo:hover {
   letter-spacing: 5px;
 }
 header.sticky .logo,
 header.sticky ul li a {
-  color: #000;
+  color: #1f2738;
 }
 
 @keyframes animateLogo {
@@ -174,9 +175,6 @@ header.sticky ul li a {
   margin-bottom: 0px;
   letter-spacing: 5px;
   transition: 0.5s;
-}
-.banner h2:nth-child(1) span {
-  color: black;
 }
 .banner h2:hover:nth-child(1) {
   letter-spacing: 10px;
@@ -280,7 +278,9 @@ header.sticky ul li a {
   align-items: center;
   text-align: center;
   width: 300px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
 }
 .services .box-container .box .icon-box {
   margin-top: 25px;
@@ -294,14 +294,19 @@ header.sticky ul li a {
   margin: 20px 0px;
   font-size: 22px;
 }
+.services .box-container .box:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  transform: scale(1.2);
+  background: #fff;
+}
 
 /* STATS */
 .stats {
   position: relative;
   width: 100%;
-  min-height: 95vh;
+  min-height: 100vh;
   padding: 50px 100px;
-  background: rgba(0, 0, 0, 1);
+  background: #1f2738;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -381,11 +386,12 @@ header.sticky ul li a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #000;
   transition: 0.5s;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #fff;
+  color: #000;
 }
 .work .project .box .back {
   position: absolute;
@@ -393,10 +399,10 @@ header.sticky ul li a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: #1f2738;
   transform: rotateY(180deg);
   transition: 0.5s;
-  color: #000;
+  color: #fff;
   opacity: 0;
   display: flex;
   align-items: center;
@@ -414,6 +420,14 @@ header.sticky ul li a {
 .work .project .box .back p {
   font-weight: 600;
   font-weight: 40px;
+}
+
+/* CONTACT */
+.contact {
+  padding: 50px 100px;
+  width: 100%;
+  min-height: 100vh;
+  background: #1f2738;
 }
 
 /* FOOTER */

@@ -8,6 +8,7 @@ import Services from "./components/Services/Services";
 import Stats from "./components/Stats/Stats";
 import Work from "./components/Work/Work";
 import Footer from "./components/Layouts/Footer";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/profile" component={Services} />
         <Route path="/profile" component={Stats} />
         <Route path="/profile" component={Work} />
+        <Route path="/profile" component={Contact} />
         <Route path="/profile" component={Footer} />
       </Router>
     </div>
