@@ -41,7 +41,7 @@ const Header = () => {
         </li>
         <li>
           <a href="#team" onClick={toggleMenu}>
-            Team
+            Work
           </a>
         </li>
         <li>
