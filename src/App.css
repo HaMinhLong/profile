@@ -503,6 +503,46 @@ header.sticky ul li a {
   font-size: 24px;
   font-weight: 400;
   width: 200px;
+  cursor: pointer;
 }
 
 /* FOOTER */
+.footer {
+  position: relative;
+  top: 0;
+  left: 0;
+  background: #1f2738;
+  width: 100%;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+  color: #fff;
+}
+.footer p {
+  font-size: 14px;
+}
+.footer .info {
+  width: 100%;
+  min-height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #fff;
+}
+.footer .info div:nth-child(1) {
+  margin-right: 400px;
+  font-size: 40px;
+  font-family: "Great Vibes", cursive;
+  font-family: "Merienda", cursive;
+}
+.footer .info div:nth-child(2) p:nth-child(1) {
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.footer .copyright {
+  margin-top: 40px;
+}

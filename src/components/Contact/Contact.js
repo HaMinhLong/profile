@@ -18,15 +18,15 @@ const Contact = () => {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div className="form">
-          <input type="email" value="Email Address" />
-          <input type="text" value="Full Name" />
-          <input type="text" value="Phone Number" />
+          <input type="email" placeholder="Email Address" />
+          <input type="text" placeholder="Full Name" />
+          <input type="text" placeholder="Phone Number" />
           <textarea
             name="message"
             id="message"
             cols="30"
             rows="10"
-            value="Message"
+            placeholder="Message"
           ></textarea>
           <input type="submit" value="Send" />
         </div>
