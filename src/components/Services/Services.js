@@ -18,6 +18,7 @@ const Services = () => {
           aliquip ex ea commodo consequat.
         </p>
       </div>
+      <div className="bg"></div>
       <div className="box-container">
         <div className="box">
           <div className="icon-box">
