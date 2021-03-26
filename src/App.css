@@ -7,6 +7,8 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+}
+html {
   scroll-behavior: smooth;
 }
 h3 {
@@ -44,12 +46,13 @@ header {
   z-index: 1000;
 }
 header.sticky {
-  background: #fff;
-  padding: 10px 100px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0px 100px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
 header .logo {
+  position: relative;
   color: #fff;
   font-weight: 700;
   font-size: 2em;
@@ -60,7 +63,9 @@ header .logo {
   transition: 0.5s;
   font-family: "Great Vibes", cursive;
   font-family: "Merienda", cursive;
+  animation: animateLogo 0.5s ease-in-out;
 }
+
 header .logo span {
   color: #4a76fb;
   font-size: 50px;
@@ -81,6 +86,26 @@ header ul li {
   position: relative;
   list-style: none;
   margin-left: 30px;
+  transition: 0.5s;
+  animation: animateLogo 0.5s ease-in-out;
+}
+header ul li:nth-child(1) {
+  animation-delay: 0.7s;
+}
+header ul li:nth-child(2) {
+  animation-delay: 0.9s;
+}
+header ul li:nth-child(3) {
+  animation-delay: 1.1s;
+}
+header ul li:nth-child(4) {
+  animation-delay: 1.3s;
+}
+header ul li:nth-child(5) {
+  animation-delay: 1.5s;
+}
+header ul li:nth-child(6) {
+  animation-delay: 1.7s;
 }
 header ul li a {
   position: relative;
@@ -102,6 +127,17 @@ header.sticky ul li a {
   color: #000;
 }
 
+@keyframes animateLogo {
+  0% {
+    opacity: 0;
+    top: 50px;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
 /* BANNER */
 .banner {
   position: relative;
@@ -116,12 +152,14 @@ header.sticky ul li a {
 }
 .banner h2:nth-child(1),
 .banner h2:nth-child(2) {
+  position: relative;
   color: #fff;
   font-size: 100px;
   text-align: center;
   letter-spacing: 5px;
   font-family: "Great Vibes", cursive;
   font-family: "Merienda", cursive;
+  animation: animationShow 2s ease-in-out;
 }
 
 .banner h2:nth-child(1) {
@@ -137,7 +175,55 @@ header.sticky ul li a {
 }
 .banner h2:nth-child(2) {
   font-weight: 300;
+  animation-delay: 0.2s;
 }
 .banner h2:nth-child(2) span {
   font-weight: 500;
+}
+
+@keyframes animationShow {
+  0% {
+    transform: scale(0);
+    left: -50%;
+    opacity: 0;
+  }
+  70% {
+    left: 100px;
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+    left: 0;
+    opacity: 1;
+  }
+}
+/* ABOUT */
+.about {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .content {
+  width: 45%;
+  height: 100%;
+}
+.about .content h3 {
+  font-weight: 300;
+}
+.about .content h3 span {
+  color: #4a76fb;
+  font-size: 60px;
+  font-weight: 500;
+}
+.about .img-box {
+  width: 50%;
+  height: 600px;
+}
+.about .img-box img {
+  width: 100%;
+  height: 100%;
 }

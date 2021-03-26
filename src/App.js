@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Header from "./components/Layouts/Header";
 import Banner from "./components/Layouts/Banner";
+import About from "./components/About/About";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Router>
         <Route path="/profile" component={Header} />
         <Route path="/profile" component={Banner} />
+        <Route path="/profile" component={About} />
       </Router>
     </div>
   );
