@@ -6,7 +6,7 @@ import planning from "../../images/planning.png";
 
 const Services = () => {
   return (
-    <section class="services" id="services">
+    <section className="services" id="services">
       <div className="content">
         <h3>
           Who <span>I</span> Do
@@ -19,11 +19,11 @@ const Services = () => {
         </p>
       </div>
       <div className="box-container">
-        <div class="box">
-          <div class="icon-box">
+        <div className="box">
+          <div className="icon-box">
             <img src={design} alt="" />
           </div>
-          <div class="box-content">
+          <div className="box-content">
             <h2>Design</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -32,11 +32,11 @@ const Services = () => {
           </div>
         </div>
 
-        <div class="box">
-          <div class="icon-box">
+        <div className="box">
+          <div className="icon-box">
             <img src={development} alt="" />
           </div>
-          <div class="box-content">
+          <div className="box-content">
             <h2>Development</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -45,11 +45,11 @@ const Services = () => {
           </div>
         </div>
 
-        <div class="box">
-          <div class="icon-box">
+        <div className="box">
+          <div className="icon-box">
             <img src={planning} alt="" />
           </div>
-          <div class="box-content">
+          <div className="box-content">
             <h2>Planning</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

@@ -40,7 +40,7 @@ const Header = () => {
           </a>
         </li>
         <li>
-          <a href="#team" onClick={toggleMenu}>
+          <a href="#work" onClick={toggleMenu}>
             Work
           </a>
         </li>

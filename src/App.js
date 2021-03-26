@@ -6,6 +6,8 @@ import Banner from "./components/Layouts/Banner";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Stats from "./components/Stats/Stats";
+import Work from "./components/Work/Work";
+import Footer from "./components/Layouts/Footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/profile" component={About} />
         <Route path="/profile" component={Services} />
         <Route path="/profile" component={Stats} />
+        <Route path="/profile" component={Work} />
+        <Route path="/profile" component={Footer} />
       </Router>
     </div>
   );
