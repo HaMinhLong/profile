@@ -8,8 +8,8 @@ function App() {
   return (
     <div>
       <Router>
-        <Route path="/" component={Header} />
-        <Route path="/" component={Banner} />
+        <Route path="/profile" component={Header} />
+        <Route path="/profile" component={Banner} />
       </Router>
     </div>
   );
