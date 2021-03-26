@@ -15,6 +15,12 @@ h3 {
   font-size: 40px;
   font-weight: 200;
   margin-bottom: 10px;
+  font-weight: 300;
+}
+h3 span {
+  color: chocolate;
+  font-size: 60px;
+  font-weight: 500;
 }
 p {
   position: relative;
@@ -67,7 +73,7 @@ header .logo {
 }
 
 header .logo span {
-  color: #4a76fb;
+  color: chocolate;
   font-size: 50px;
   margin-right: 10px;
 }
@@ -117,7 +123,7 @@ header ul li a {
 header ul li a:hover,
 header.sticky ul li a:hover {
   text-decoration: none;
-  color: #4a76fb;
+  color: chocolate;
 }
 header.sticky .logo:hover {
   letter-spacing: 5px;
@@ -168,7 +174,7 @@ header.sticky ul li a {
   transition: 0.5s;
 }
 .banner h2:nth-child(1) span {
-  color: #4a76fb;
+  color: chocolate;
 }
 .banner h2:hover:nth-child(1) {
   letter-spacing: 10px;
@@ -211,14 +217,7 @@ header.sticky ul li a {
   width: 45%;
   height: 100%;
 }
-.about .content h3 {
-  font-weight: 300;
-}
-.about .content h3 span {
-  color: #4a76fb;
-  font-size: 60px;
-  font-weight: 500;
-}
+
 .about .img-box {
   width: 50%;
   height: 600px;
@@ -226,4 +225,50 @@ header.sticky ul li a {
 .about .img-box img {
   width: 100%;
   height: 100%;
+}
+
+/* SERVICES */
+.services {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+}
+.services .content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.services .box-container {
+  width: 80%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services .box-container .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+.services .box-container .box .icon-box {
+  margin-top: 25px;
+}
+.services .box-container .box .icon-box img {
+  width: 70px;
+}
+.services .box-container .box .box-content h2 {
+  text-transform: uppercase;
+  margin: 20px 0px;
+  font-size: 22px;
 }
