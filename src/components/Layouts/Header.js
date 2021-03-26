@@ -14,7 +14,7 @@ const toggleMenu = () => {
 const Header = () => {
   return (
     <header id="header">
-      <Link to="/profile" className="logo">
+      <Link to="/profile/" className="logo">
         <span>M</span>inh <span>L</span>ong
       </Link>
       <div className="toggle" id="toggle" onClick={toggleMenu}></div>
