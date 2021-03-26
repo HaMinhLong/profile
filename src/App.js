@@ -9,7 +9,7 @@ function App() {
     <div>
       <Router>
         <Route path="/" component={Header} />
-        <Route path="/" exact component={Banner} />
+        <Route path="/" component={Banner} />
       </Router>
     </div>
   );
