@@ -2,7 +2,7 @@ import React from "react";
 
 const Work = () => {
   return (
-    <section className="work" id="work">
+    <section className="work sec" id="work">
       <div className="content">
         <h3>
           Recent <span>W</span>ork

@@ -6,7 +6,7 @@ import planning from "../../images/planning.png";
 
 const Services = () => {
   return (
-    <section className="services" id="services">
+    <section className="services sec" id="services">
       <div className="content">
         <h3>
           Who <span>I</span> Do

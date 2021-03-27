@@ -2,7 +2,7 @@ import React from "react";
 
 const Stats = () => {
   return (
-    <section className="stats" id="stats">
+    <section className="stats sec" id="stats">
       <div className="content">
         <h3>
           Who <span>A</span>chievements
@@ -15,19 +15,19 @@ const Stats = () => {
       </div>
       <div className="stats-container">
         <div className="box">
-          <p>5+</p>
+          <p>5 +</p>
           <p>Projects</p>
         </div>
         <div className="box">
-          <p>1+</p>
+          <p>1 +</p>
           <p>Happy Clients</p>
         </div>
         <div className="box">
-          <p>0+</p>
+          <p>1 +</p>
           <p>Countries</p>
         </div>
         <div className="box">
-          <p>0+</p>
+          <p>0 +</p>
           <p>Awards</p>
         </div>
       </div>
