@@ -37,6 +37,8 @@ p {
   background: #1f2738;
   text-decoration: none;
   color: #fff;
+  border-radius: 30px;
+  font-weight: 700;
 }
 
 /* NAVBAR */
@@ -193,7 +195,7 @@ header.sticky ul li a {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: url("https://innovatewebdevelopment.com/wp-content/uploads/2020/07/comingsoon.jpg");
+  background: url("./images//bg_banner.jpg");
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -318,6 +320,7 @@ header.sticky ul li a {
 .about .content {
   width: 45%;
   height: 100%;
+  margin-bottom: 20px;
 }
 
 .about .img-box {
@@ -657,13 +660,14 @@ header.sticky ul li a {
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: center;
   padding: 50px 50px;
 }
 .contact form div:nth-child(1) {
   text-align: center;
   color: #1f2738;
   border-bottom: 1px solid #1f2738;
+  margin-bottom: 30px;
 }
 .contact form .form {
   width: 100%;
@@ -1111,7 +1115,7 @@ header.sticky ul li a {
     right: 3px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 375px) {
   p {
     font-size: 14px;
   }

@@ -1,6 +1,8 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 
+import image from "../../images/about_image.jpg";
+
 const About = () => {
   return (
     <section className="about" id="about">
@@ -27,14 +29,19 @@ const About = () => {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
+          <a
+            href="https://www.topcv.vn/xem-cv/d1de1d9af0b1ad6954fedc1d484bdda4"
+            target="_blank"
+            rel="noreferrer"
+            className="btn"
+          >
+            My CV
+          </a>
         </div>
       </Fade>
       <Fade right cascade>
         <div className="img-box">
-          <img
-            src="https://cdn.mos.cms.futurecdn.net/CRGUJC4PuQ3zT7bfvuZVCZ.jpg"
-            alt=""
-          />
+          <img src={image} alt="" />
         </div>
       </Fade>
     </section>
